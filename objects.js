@@ -1,4 +1,4 @@
-var playlist = {Yui : ["again"]}
+var playlist = {Yui : "again"}
 
 function updatePlaylist(playlist, artist, song){
   playlist[artist] = song;
