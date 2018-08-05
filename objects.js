@@ -1,0 +1,3 @@
+Object.assign(playlist)
+
+function 
