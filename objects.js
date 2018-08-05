@@ -1,11 +1,11 @@
 var playlist = {Yui : "again"}
 
 function updatePlaylist(playlist, artist, song){
-  playlist[artist] = song;
-  return playlist;
+  this.playlist[artist] = song;
+  return this.playlist;
 }
 
 function removeFromPlaylist(playlist, artist){
-  delete playlist[artist];
-  return playlist;
+  delete this.playlist[artist];
+  return this.playlist;
 }
